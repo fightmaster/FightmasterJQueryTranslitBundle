@@ -1,0 +1,28 @@
+{
+    "name":        "fightmaster/fightmaster-jquery-translit-bundle",
+    "type":        "symfony-bundle",
+    "keywords":    ["jQuery", "Symfony", "translit"],
+    "homepage":    "https://github.com/fightmaster/FightmasterJQueryTranslitBundle",
+    "license":     "MIT",
+
+    "authors": [
+        {
+            "name": "Dmitry Petrov",
+            "email": "old.fightmaster@gmail.com",
+            "role": "Developer"
+        }
+    ],
+
+    "require": {
+        "php":                      ">=5.3.3",
+        "symfony/framework-bundle": ">=2.0,<2.2-dev"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Fightmaster\\Bundle\\JQueryTranslitBundle": ""
+        }
+    },
+
+    "target-dir": "Fightmaster/Bundle/JQueryTranslitBundle"
+}
